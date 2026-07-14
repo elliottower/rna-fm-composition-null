@@ -5,3 +5,5 @@ __pycache__/
 *.out
 *.synctex.gz
 .DS_Store
+paper/
+TODO.md
