@@ -144,7 +144,7 @@ architectural inductive bias.}
 \label{fig:schematic}
 \end{figure}
 
-\subsection{Target benchmark}
+\subsection{Target panel}
 
 Sixteen RNA targets were selected to span three categories: eight positives
 (POS-01 through POS-08) with established druggability evidence, five
@@ -152,13 +152,13 @@ negatives (NEG-01 through NEG-05) with no known druggability, and three
 graded controls (CTL-01 through CTL-03) consisting of HTT exon~1 CAG-repeat
 constructs at lengths 17, 36, and 60, providing a monotonicity test for
 repeat-length sensitivity. Table~\ref{tab:targets} lists each target with
-its RNA type, sequence length, and druggability evidence. The benchmark is
+its RNA type, sequence length, and druggability evidence. The target panel is
 stored as \texttt{druggability\_benchmark\_v2.tsv} and was frozen before
 evaluation.
 
 \begin{table}[htbp]
 \centering
-\caption{Target benchmark. POS: druggable positive; NEG: non-druggable
+\caption{Target panel. POS: druggable positive; NEG: non-druggable
 negative; CTL: graded HTT repeat-length control. Druggability evidence lists
 published ligands or structural rationale. Synthetic controls (NEG-04,
 NEG-05) are generated at runtime with frozen RNG seeds.}
@@ -540,7 +540,7 @@ rankings do not fill.
 \section*{Data availability}
 
 Pre-registration documents, all per-model result files (JSON), the
-16-target benchmark (\texttt{druggability\_benchmark\_v2.tsv}), and the
+16-target panel (\texttt{druggability\_benchmark\_v2.tsv}), and the
 evaluation code are available at
 \url{https://github.com/elliottower/rna-fm-composition-null}
 and deposited on Zenodo (\todo{DOI upon submission}) under a CC-BY-4.0
