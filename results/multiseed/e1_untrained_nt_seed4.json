@@ -1,0 +1,91 @@
+{
+  "model": "nt",
+  "condition": "untrained_random_weights",
+  "seed": 4,
+  "attention_contact": {
+    "model": "nt",
+    "metric": "attention_contact",
+    "per_target": {
+      "POS-01": {
+        "best_corr": 0.4295888913613786,
+        "best_layer": 9,
+        "gate_c_pass": true
+      },
+      "POS-02": {
+        "best_corr": 0.4125869374740912,
+        "best_layer": 0,
+        "gate_c_pass": true
+      },
+      "POS-03": {
+        "best_corr": 0.23501299585533383,
+        "best_layer": 0,
+        "gate_c_pass": true
+      },
+      "POS-04": {
+        "best_corr": 0.4927637283262872,
+        "best_layer": 0,
+        "gate_c_pass": true
+      },
+      "POS-05": {
+        "best_corr": 0.3473173917749738,
+        "best_layer": 8,
+        "gate_c_pass": true
+      },
+      "POS-06": {
+        "best_corr": 0.28959019641169637,
+        "best_layer": 10,
+        "gate_c_pass": true
+      },
+      "POS-07": {
+        "best_corr": 0.3523509771630169,
+        "best_layer": 1,
+        "gate_c_pass": true
+      },
+      "POS-08": {
+        "best_corr": 0.41882337846853523,
+        "best_layer": 4,
+        "gate_c_pass": true
+      },
+      "NEG-01": {
+        "best_corr": 0.20035330021284056,
+        "best_layer": 4,
+        "gate_c_pass": true
+      },
+      "NEG-02": {
+        "best_corr": 0.21005588912868425,
+        "best_layer": 3,
+        "gate_c_pass": true
+      },
+      "NEG-03": {
+        "best_corr": 0.17318798454850168,
+        "best_layer": 0,
+        "gate_c_pass": true
+      },
+      "NEG-04": {
+        "best_corr": 0.2503517189672023,
+        "best_layer": 11,
+        "gate_c_pass": true
+      },
+      "NEG-05": {
+        "best_corr": 0.2751011091825519,
+        "best_layer": 7,
+        "gate_c_pass": true
+      },
+      "CTL-01": {
+        "best_corr": 0.1225959594321176,
+        "best_layer": 11,
+        "gate_c_pass": true
+      },
+      "CTL-02": {
+        "best_corr": 0.1449394334754248,
+        "best_layer": 8,
+        "gate_c_pass": true
+      },
+      "CTL-03": {
+        "best_corr": 0.12787488363554408,
+        "best_layer": 4,
+        "gate_c_pass": true
+      }
+    }
+  }
+}
